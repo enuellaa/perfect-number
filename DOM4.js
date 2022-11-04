@@ -45,25 +45,25 @@ const colorInput = document.querySelector("#color1").addEventListener("input", f
 document.querySelector(".range1").oninput = function () {
     const r = document.querySelector("#red").value;
     const g = document.querySelector("#green").value;
-    const p = document.querySelector("#purple").value;
+    const b = document.querySelector("#blue").value;
 
-    document.body.style.backgroundColor = (`rgb(${r},${g},${p}`);
+    document.body.style.backgroundColor = (`rgb(${r},${g},${b}`);
 }
 
 document.querySelector(".range2").oninput = function () {
     const r = document.querySelector("#red").value;
     const g = document.querySelector("#green").value;
-    const p = document.querySelector("#purple").value;
+    const b = document.querySelector("#blue").value;
 
-    document.body.style.backgroundColor = (`rgb(${r},${g},${p}`);
+    document.body.style.backgroundColor = (`rgb(${r},${g},${b}`);
 }
 
 document.querySelector(".range3").oninput = function () {
     const r = document.querySelector("#red").value;
     const g = document.querySelector("#green").value;
-    const p = document.querySelector("#purple").value;
+    const b = document.querySelector("#blue").value;
 
-    document.body.style.backgroundColor = (`rgb(${r},${g},${p}`);
+    document.body.style.backgroundColor = (`rgb(${r},${g},${b}`);
 }
 
 
