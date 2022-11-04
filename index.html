@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>DOM 4</title>
+</head>
+<body class="body">
+    <div class="titlediv">
+        <h1>Perfect Number</h1>
+    <p>Skriv inn nummeret ditt her!</p>
+    </div>
+
+    <div class="numberdiv">
+        <div> 
+            <input class="input" type="input" name="inputnum" id="inputnum">
+        </div>
+        <div>
+            <button class="checknum" type="submit" id ="Checknum" onclick="checkNumber()">Check Number</button>
+        </div>
+        <div>
+            <button class="randomnum" type="button" onclick="randomnum1()">Random number</button>
+        </div>
+    </div>
+
+    <div id="perfnumdiv">Perfect number?</div>
+    <br> <br><br><br>
+
+    <div class="colordiv1">
+        <input type="color" name="Colorinput" id="color1">
+    </div>
+
+    <div class="colordiv2">
+        <div>
+            <h5>Red</h5>
+            <input class="range1" type="range" name="redRange" id="red">
+        </div>
+        <div>
+            <h5>Green</h5>
+            <input class="range2" type="range" name="greenRange" id="green">
+        </div>
+        <div>
+            <h5>Purple</h5>
+            <input class="range3" type="range" name="purpleRange" id="purple">
+        </div>
+    </div>
+    <script src="DOM4.js"></script>
+</body>
+</html>
